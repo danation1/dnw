@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           <title>welcome to helping hand area </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<style>
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: blue;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 12%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 29px;
+</style>
+
+<body>
+
+<!-- Navigation -->
+<nav class="icon-bar">
+<a href="file:///D:/pulblic_html/form.html" i class="material-icons" style="font-size:25px;color:red" target="_blank">SIGN UP</a> 
+
+<a href="file:///D:/pulblic_html/login1.html" i class="material-icons" style="font-size:25px;color:red" target="_blank">LOGIN</a>
+
+<a href="D:\pulblic_html\menue.html" i class="material-icons" style="font-size:25px;color:red"><i class="fa fa-home"> LOGGED </i></a>
+
+</nav>
+    
+<!-- Slide Show -->
+<section>
+ <img class="mySlides" src="fhelp1.jpg"
+  style="width:100%"> </h2>>
+
+  <img class="mySlides" src="datelogo2.jpg"
+  style="width:100%" >
+  
+  <img class="mySlides" src="fla23.jpg"
+  style="width:100%">
+
+
+  <img class="mySlides" src="fla23.jpg"
+  style="width:100%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<a href="#"> <i class="material-icons" style="font-size:48px;color:red">JUMP UP </i></a>
+
+  <br> <br>
+  <br>
+
+
+
+<div class="footer">
+ <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a> 
+</footer>   
+</div>
+
+</body>
+</html>
+
